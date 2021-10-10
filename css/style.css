@@ -4,6 +4,7 @@
 
 .round {
     border-radius: 50%;
+    width: 200px;
     max-width: 50%;
     height: auto;
     display: block;
