@@ -2,6 +2,10 @@
     background-color: azure;
 }
 
+header {
+    background-color: black;
+}
+
 .round {
     border-radius: 50%;
     width: 200px;
