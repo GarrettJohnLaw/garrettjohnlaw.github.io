@@ -4,7 +4,7 @@
 }
 
 .header {
-    background-color: lightsalmon;
+    background-color: floralwhite;
     overflow: hidden;
     color: white;
 }
@@ -34,7 +34,7 @@
 }
 
 .header a.active {
-    background-color: #04AA6D;
+    background-color: black;
     color: white;
 }
 
