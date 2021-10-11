@@ -5,6 +5,34 @@
 
 .header {
     background-color: coral;
+    overflow: hidden;
+    color: white;
+}
+
+.header a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.site-title {
+    color: rgb(6, 53, 156);
+}
+
+.small-site-title {
+    color: cornflowerblue;
+}
+
+.header a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.header a.active {
+    background-color: #04AA6D;
     color: white;
 }
 
@@ -26,12 +54,4 @@ figure {
 
 .center {
     text-align: center;
-}
-
-.site-title {
-    color: rgb(6, 53, 156);
-}
-
-.small-site-title {
-    color: cornflowerblue;
 }
