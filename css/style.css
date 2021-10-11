@@ -18,11 +18,11 @@
     font-size: 17px;
 }
 
-.site-title {
+.header h1 {
     color: darkblue;
 }
 
-.small-site-title {
+.header h2 {
     color: cornflowerblue;
 }
 
