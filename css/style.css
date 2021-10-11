@@ -20,10 +20,12 @@
 
 .header h1 {
     color: darkblue;
+    display: inline;
 }
 
 .header h2 {
     color: cornflowerblue;
+    display: inline;
 }
 
 .header a:hover {
