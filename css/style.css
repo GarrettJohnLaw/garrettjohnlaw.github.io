@@ -1,6 +1,6 @@
 * {
     background-color: azure;
-    color: dodgerblue;
+    color: cornflowerblue;
 }
 
 header {
@@ -20,6 +20,7 @@ figure {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    padding-bottom: 10px;
 }
 
 .center {
