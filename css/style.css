@@ -3,8 +3,9 @@
     color: cornflowerblue;
 }
 
-header {
-    background-color: black;
+.header {
+    background-color: coral;
+    color: white;
 }
 
 figure {
