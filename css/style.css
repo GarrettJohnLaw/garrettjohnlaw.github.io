@@ -71,4 +71,5 @@ figure {
 .navbar {
     float: right;
     padding: 0px;
+    display: inline-block;
 }
