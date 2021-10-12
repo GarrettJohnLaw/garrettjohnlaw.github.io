@@ -59,8 +59,7 @@ figure {
 
 .round {
     border-radius: 50%;
-    width: 200px;
-    max-width: 50%;
+    max-width: 80%;
     height: auto;
     display: block;
     margin-left: auto;
