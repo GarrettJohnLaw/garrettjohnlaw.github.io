@@ -9,6 +9,8 @@
     color: white;
     margin: 0px;
     display: flex;
+    align-items: space-between;
+    flex-wrap: wrap;
 }
 
 .header h1 {
