@@ -8,6 +8,7 @@
     overflow: hidden;
     color: white;
     margin: 0px;
+    display: inline;
 }
 
 .header h1 {
@@ -15,6 +16,7 @@
     display: inline;
     margin: 0px;
     padding: 5px;
+    size: 2em;
 }
 
 .header h2 {
