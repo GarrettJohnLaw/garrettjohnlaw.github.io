@@ -63,3 +63,7 @@ figure {
 .center {
     text-align: center;
 }
+
+.navbar {
+    float: right;
+}
