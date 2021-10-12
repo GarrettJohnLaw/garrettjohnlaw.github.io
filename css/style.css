@@ -83,4 +83,7 @@ figure {
         width: fit-content;
         justify-content: flex-end;
     }
+    .round {
+        max-width: 50%;
+    }
 }
