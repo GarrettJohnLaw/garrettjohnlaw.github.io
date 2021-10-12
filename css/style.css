@@ -16,6 +16,7 @@
 .menuItem {
     margin: 0%;
     gap: 0px;
+    flex-grow: 1;
 }
 
 .header h1 {
