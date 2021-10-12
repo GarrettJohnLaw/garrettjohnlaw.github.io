@@ -75,11 +75,12 @@ figure {
     padding: 0px;
     width: 100%;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
 }
 
 @media screen and (min-width: 600px) {
     .navbar {
         width: fit-content;
+        justify-content: flex-end;
     }
 }
