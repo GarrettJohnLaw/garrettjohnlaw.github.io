@@ -19,6 +19,7 @@
     font-size: 17px;
     display: inline;
     margin: 0px;
+    background-color: white;
 }
 
 .header h1 {
@@ -34,12 +35,12 @@
 }
 
 .header a:hover {
-    background-color: #ddd;
+    background-color: cornflowerblue;
     color: black;
 }
 
 .header a.active {
-    background-color: darkblue;
+    background-color: cornflowerblue;
     color: white;
 }
 
