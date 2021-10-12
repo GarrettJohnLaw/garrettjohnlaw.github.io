@@ -8,7 +8,7 @@
     overflow: hidden;
     color: white;
     margin: 0px;
-    display: inline;
+    display: flex;
 }
 
 .header h1 {
