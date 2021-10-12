@@ -20,6 +20,7 @@
     display: inline;
     margin: 0px;
     background-color: white;
+    margin: 0px;
 }
 
 .header h1 {
@@ -37,11 +38,13 @@
 .header a:hover {
     background-color: cornflowerblue;
     color: black;
+    margin: 0px;
 }
 
 .header a.active {
     background-color: cornflowerblue;
     color: white;
+    margin: 0px;
 }
 
 figure {
