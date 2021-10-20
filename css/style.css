@@ -50,6 +50,25 @@ ul {
 }
 
 .toggle {
+    order: 1;
+}
+
+.item.button {
+    order: 2;
+}
+
+.item {
+    width: 100%;
+    text-align: center;
+    order: 3;
+    display: none;
+}
+
+.item.active {
+    display: block;
+}
+
+.toggle {
     cursor: pointer;
 }
 
@@ -78,6 +97,55 @@ ul {
 .bars::after {
     top: -5px;
 }
+
+
+/* tablet menu */
+
+@media all and (min-width: 470px) {
+    .menu {
+        justify-content: center;
+    }
+    .logo {
+        flex: 1;
+    }
+    .item.button {
+        width: auto;
+        order: 1;
+        display: block;
+    }
+    .toggle {
+        order: 2;
+    }
+    .button.secondary {
+        order: 0;
+    }
+    .button a {
+        text-decoration: none;
+        padding: 7px 15px;
+        background: teal;
+        border: 1px solid #006d6d;
+        border-radius: 50em;
+    }
+    .button.secondary a {
+        background-color: transparent;
+    }
+    .button a:hover {
+        transition: all .25s;
+    }
+    .button:not(.button.secondary) a:hover {
+        background: #006d6d;
+        border-color: #005959;
+    }
+    .button.secondary a:hover {
+        color: #ddd;
+    }
+}
+
+
+/* desktop menu */
+
+
+/* existing stuff*/
 
 .header {
     background-color: azure;
