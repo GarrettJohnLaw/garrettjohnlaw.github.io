@@ -172,22 +172,6 @@ ul {
 
 /* existing stuff*/
 
-.header {
-    background-color: azure;
-    overflow: hidden;
-    color: white;
-    margin: 0px;
-    display: flex;
-    align-items: space-between;
-    flex-wrap: wrap;
-}
-
-.menuItem {
-    margin: 0%;
-    gap: 0px;
-    flex-grow: 1;
-}
-
 .header h1 {
     color: darkblue;
     display: inline;
@@ -220,14 +204,4 @@ figure {
 
 .center {
     text-align: center;
-}
-
-@media screen and (min-width: 600px) {
-    .navbar {
-        width: fit-content;
-        justify-content: flex-end;
-    }
-    .round {
-        max-width: 50%;
-    }
 }
