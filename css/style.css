@@ -98,6 +98,10 @@ ul {
     top: -5px;
 }
 
+.round {
+    max-width: 75%;
+}
+
 
 /* tablet menu */
 
@@ -142,6 +146,9 @@ ul {
     .round {
         max-width: 50%;
     }
+    .round {
+        max-width: 50%;
+    }
 }
 
 
@@ -172,6 +179,9 @@ ul {
     }
     .round {
         max-width: 35%;
+    }
+    .round {
+        max-width: 30%;
     }
 }
 
