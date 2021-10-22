@@ -139,6 +139,9 @@ ul {
     .button.secondary a:hover {
         color: #ddd;
     }
+    .round {
+        max-width: 50%;
+    }
 }
 
 
@@ -166,6 +169,9 @@ ul {
     }
     .menu li.button {
         padding-right: 0;
+    }
+    .round {
+        max-width: 35%;
     }
 }
 
