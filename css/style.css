@@ -15,7 +15,7 @@ body {
 
 
 #student-contact button {
-    background-color:rgb(19, 99, 190);
+    background-color:rgb(77, 177, 235);
     border: none;
     color: white;
     padding: 12px;
@@ -186,6 +186,11 @@ header img {
 
 @media screen and (max-width: 1024px){
 
+    #student-quote > h2 {
+        font-size: 1.5em;
+        
+    }    
+
     #main-grid {
         grid-template-columns: 1fr 1fr;
         column-gap: 35px;
@@ -211,6 +216,12 @@ header img {
     
 
 @media screen and (max-width: 450px){
+
+
+    #student-quote > h2 {
+        font-size: 1.4em;
+        
+    }    
 
     #main-grid {
         grid-template-columns: 1fr;
