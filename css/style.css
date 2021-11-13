@@ -234,8 +234,8 @@ header img {
         row-gap: 20px;
         column-gap: 20px;
         grid-template-areas: 
-        "experience-web experience-design"
-        "experience-code experience-database";
+        "experience-code experience-database"
+        "experience-web experience-design";
     }
 
 
