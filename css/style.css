@@ -23,7 +23,7 @@ body {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 1em;
+    font-size: 0.8em;
     border-radius: 8px;
     width: 34%;
     margin: 10px;
@@ -127,6 +127,12 @@ padding-top: 0;
     line-height: 1em;
    
 }
+#student-contact h2 {
+    padding:0;
+    line-height: 1;
+    margin-bottom: 0px;
+    font-size: 18px;
+}
 
 #experience-grid {
     grid-area: experience-grid;
@@ -156,7 +162,9 @@ grid-area: experience-web;
 grid-area: experience-design
 }
 
-
+#contact-button:hover {
+background-color: rgb(19, 99, 190);
+}
 
 
 
@@ -238,7 +246,7 @@ header img {
 
     #student-quote > h2 {
         font-size: 1.4em;
-        
+    
     }    
 
     #main-grid {
@@ -248,8 +256,8 @@ header img {
         grid-template-areas: 
             "headline"
             "student-picture"
-            "student-contact"
             "student-quote"
+            "student-contact"
             "student-profile"
             "experience-grid"
             ;
@@ -258,10 +266,10 @@ header img {
     #experience-grid {
         grid-template-columns: 1fr;
         grid-template-areas: 
-        "experience-web"
-        "experience-design"
         "experience-code" 
-        "experience-database";
+        "experience-database"
+        "experience-web"
+        "experience-design";
     }
 
 }
