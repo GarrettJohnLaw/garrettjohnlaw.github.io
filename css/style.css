@@ -15,7 +15,7 @@ body {
 }
 
 
-#student-contact button {
+#contact-button {
     background-color:rgb(77, 177, 235);
     border: none;
     color: white;
@@ -28,7 +28,8 @@ body {
     width: 34%;
     margin: 10px;
     height: 70px;
-    
+    max-width: 150px;
+    max-height: 60px;
 }
 
 #main-grid {
@@ -87,13 +88,15 @@ padding-top: 0;
 #student-picture {
     grid-area: student-picture;
     text-align: center;
-    
+    padding-top: 0;
+    margin-top: 0;
 }
 
 
 
 #student-quote {
     grid-area: student-quote;
+    text-align: center;
 }
 
 #student-quote > h2 {
@@ -257,8 +260,9 @@ header img {
             "headline"
             "student-picture"
             "student-quote"
-            "student-contact"
+            
             "student-profile"
+            "student-contact"
             "experience-grid"
             ;
     }
