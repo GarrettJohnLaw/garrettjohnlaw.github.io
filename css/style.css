@@ -14,9 +14,8 @@ body {
     width: 85vw;
 }
 
-
 #contact-button {
-    background-color:rgb(77, 177, 235);
+    background-color: rgb(77, 177, 235);
     border: none;
     color: white;
     padding: 12px;
@@ -35,15 +34,9 @@ body {
 #main-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 50px; 
+    column-gap: 50px;
     row-gap: 20px;
-    grid-template-areas: 
-        "headline headline student-picture"
-        "student-quote student-quote student-picture"
-        "student-profile student-profile student-contact"
-        "experience-grid experience-grid experience-grid"
-        ;
-
+    grid-template-areas: "headline headline student-picture" "student-quote student-quote student-picture" "student-profile student-profile student-contact" "experience-grid experience-grid experience-grid";
     align-items: center;
 }
 
@@ -63,11 +56,10 @@ body {
     color: rgb(77, 177, 235);
 }
 
-
 #nav {
-grid-area: nav;
-margin-top: 0;
-padding-top: 0;
+    grid-area: nav;
+    margin-top: 0;
+    padding-top: 0;
 }
 
 #nav li {
@@ -77,13 +69,11 @@ padding-top: 0;
     display: inline-block;
     font-size: 1.3em;
     margin-top: 0;
-} 
+}
 
 #nav a {
     text-decoration: none;
 }
-
-
 
 #student-picture {
     grid-area: student-picture;
@@ -92,14 +82,12 @@ padding-top: 0;
     margin-top: 0;
 }
 
-
-
 #student-quote {
     grid-area: student-quote;
     text-align: center;
 }
 
-#student-quote > h2 {
+#student-quote>h2 {
     color: black;
     font-size: 1.7em;
     font-weight: 600;
@@ -112,7 +100,6 @@ padding-top: 0;
 #buttons {
     display: flex;
     flex-direction: column;
-    
 }
 
 #row-container {
@@ -128,10 +115,10 @@ padding-top: 0;
     vertical-align: top;
     font-size: 1.2em;
     line-height: 1em;
-   
 }
+
 #student-contact h2 {
-    padding:0;
+    padding: 0;
     line-height: 1;
     margin-bottom: 0px;
     font-size: 18px;
@@ -143,10 +130,7 @@ padding-top: 0;
     row-gap: 20px;
     column-gap: 50px;
     grid-template-columns: 1fr 1fr;
-    grid-template-areas: 
-        "experience-code experience-code"
-        "experience-database experience-database"
-        "experience-web experience-design";
+    grid-template-areas: "experience-code experience-database" "experience-web experience-design";
 }
 
 #experience-code {
@@ -158,19 +142,16 @@ padding-top: 0;
 }
 
 #experience-web {
-grid-area: experience-web;
+    grid-area: experience-web;
 }
 
 #experience-design {
-grid-area: experience-design
+    grid-area: experience-design
 }
 
 #contact-button:hover {
-background-color: rgb(19, 99, 190);
+    background-color: rgb(19, 99, 190);
 }
-
-
-
 
 h1 {
     font-size: 2em;
@@ -206,79 +187,51 @@ header img {
     font-style: italic;
 }
 
-#student-picture img{
+#student-picture img {
     border-radius: 50%;
     width: 350px;
 }
 
+footer img {
+    width: 100%;
+}
 
-
-@media screen and (max-width: 1024px){
-
-    #student-quote > h2 {
+@media screen and (max-width: 1024px) {
+    #student-quote>h2 {
         font-size: 1.5em;
-        
-    }    
-
+    }
     #main-grid {
         grid-template-columns: 1fr 1fr;
         column-gap: 35px;
-        grid-template-areas: 
-            "headline headline"
-            "student-quote student-picture"
-            "student-quote student-contact"
-            "student-profile student-profile"
-            "experience-grid experience-grid"
-            ;
+        grid-template-areas: "headline student-picture" "student-quote student-picture" "student-quote student-contact" "student-profile student-profile" "experience-grid experience-grid";
     }
-
     #experience-grid {
         grid-template-columns: 1fr 1fr;
         row-gap: 20px;
         column-gap: 20px;
-        grid-template-areas: 
-        "experience-code experience-database"
-        "experience-web experience-design";
+        grid-template-areas: "experience-code experience-database" "experience-web experience-design";
     }
+    #student-picture img {
+        max-width: 250px;
+    }
+}
 
-
-    
-
-@media screen and (max-width: 450px){
-
-
-    #student-quote > h2 {
+@media screen and (max-width: 450px) {
+    #student-quote>h2 {
         font-size: 1.4em;
-    
-    }    
-
+        text-align: center;
+    }
     #main-grid {
         grid-template-columns: 1fr;
         column-gap: 35px;
         row-gap: 50px;
-        grid-template-areas: 
-            "headline"
-            "student-picture"
-            "student-quote"
-            
-            "student-profile"
-            "student-contact"
-            "experience-grid"
-            ;
+        grid-template-areas: "headline" "student-picture" "student-quote" "student-profile" "student-contact" "experience-grid";
     }
-
     #experience-grid {
         grid-template-columns: 1fr;
-        grid-template-areas: 
-        "experience-code" 
-        "experience-database"
-        "experience-web"
-        "experience-design";
+        grid-template-areas: "experience-code" "experience-database" "experience-web" "experience-design";
     }
-
+    #student-picture img {
+        max-width: 75%;
+    }
 }
-
-
-
-}
-
