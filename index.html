@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta property=“og:image” content=“assets\portfolio.png” />
+    <meta property=“og:image” content=“assets/portfolio.png” />
     <title>Garrett John Law</title>
     <link rel="icon" type="image/png" href="assets\favicon-32x32.png">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
@@ -17,89 +17,125 @@
 
 
     <main id="main-grid">
-        <div id="headline">
-            <h1>Garrett John Law</h1><br>
-            <h2>Software Engineer</h2>
-        </div>
-
-
-
-        <div id="student-picture">
-            <img src="assets/garrett-square-image.001.jpeg" alt="garrett-john-law">
-        </div>
-
-        <div id="student-quote" class="student-gray">
-            <h2>
-                I'm a coding boot camp student with 9 years of professional experience seeking a Junior Developer position.
-            </h2>
-
-            <div id="row-container">
-
-                <button type="button" onclick=" window.open('https://github.com/GarrettJohnLaw/VenmoClone/tree/master/te-nlr-2109-mod2-capstone-green-t3-c806ef8126fc','_blank')" id="contact-button"><a href="https://github.com/GarrettJohnLaw/VenmoClone/tree/master/te-nlr-2109-mod2-capstone-green-t3-c806ef8126fc" target="_blank"></a>Venmo Clone</button>
-                <button type="button" onclick=" window.open('https://github.com/GarrettJohnLaw/Vending-Machine-Software/blob/main/te-nlr-2109-mod1-capstone-green-t9-e10dd813c8e5/vending-machine-cli/java/README.md','_blank')" id="contact-button"><a href="https://garrettjohnlaw.com/my-blog" target="_blank"></a>Vending Machine</button><br><br>
+        <div id="sidebar">
+            <div id="student-picture">
+                <img src="assets/garrett-square-image.001.jpeg" alt="garrett-john-law">
             </div>
-        </div>
 
-        <div id="student-profile">
-            <p>
-                Welcome to my portfolio website! <br><br> This webpage is made from scratch using HTML and CSS. Feel free to peruse my portfolio projects on GitHub as well.
-            </p>
-            <p>The Venmo Clone is an application that sends play money. I used a PostgreSQL database and REST APIs to make the command line app capable of CRUD (Creating, Retrieving, Updating, and Deleting).</p>
-            <p>
-                The Vending Machine is a fully functional software that manages deposits, user selection, inventory, making change, and logging sales reports for the administrator.
-            </p>
-
-        </div>
-
-        <div id="student-contact">
+            <div>
+                <p>
+                    I'm a coding boot camp student with 9 years of professional experience seeking a Junior Developer position.
+                </p>
+            </div>
 
 
+            <div>
+                <h5>Learn More</h5><br>
+            </div>
 
             <div id="buttons">
+                <button type="button" onclick=" window.open('https://linkedin.com/in/garrettjohnlaw','_blank')" id="contact-button"><a href="https://linkedin.com/in/garrettjohnlaw"></a>LinkedIn</button> <br> <br>
+
+                <button type="button" onclick=" window.open('https://garrettjohnlaw.com/my-blog','_blank')" id="contact-button">Visit My Blog</button>
+            </div>
+        </div>
 
 
-                <h5>Learn More</h5><br>
-                <div id="row-container">
-                    <button type="button" onclick=" window.open('https://linkedin.com/in/garrettjohnlaw','_blank')" id="contact-button"><a href="https://linkedin.com/in/garrettjohnlaw"></a>LinkedIn</button> <br> <br>
-                    <button type="button" onclick=" window.open('https://garrettjohnlaw.com/my-blog','_blank')" id="contact-button">Visit My Blog</button>
+
+
+
+
+        <div id="main-content">
+            <div id="headline">
+                <h1>Garrett John Law</h1><br>
+                <h2>Software Engineer</h2>
+            </div>
+
+            <div id="student-profile">
+                <p>
+                    Welcome to my portfolio website! <br><br> This webpage is made from scratch using HTML and CSS. Feel free to peruse my portfolio projects on GitHub as well.
+                </p>
+                <a href="https://github.com/GarrettJohnLaw/VenmoClone/tree/master/te-nlr-2109-mod2-capstone-green-t3-c806ef8126fc" target="_blank">
+                    <h3>Venmo Clone</h3>
+                </a>
+                <a href="https://github.com/GarrettJohnLaw/VenmoClone/tree/master/te-nlr-2109-mod2-capstone-green-t3-c806ef8126fc" target="_blank">
+                    <div id="venmoClone" class="imgText">
+                        <p>The Venmo Clone is an application that sends play money. I used a PostgreSQL database and REST APIs to make the command line app capable of CRUD (Creating, Retrieving, Updating, and Deleting).
+                        </p>
+                        <!-- <button type="button" onclick=" window.open('https://github.com/GarrettJohnLaw/VenmoClone/tree/master/te-nlr-2109-mod2-capstone-green-t3-c806ef8126fc','_blank')" id="contact-button"><a href="https://github.com/GarrettJohnLaw/VenmoClone/tree/master/te-nlr-2109-mod2-capstone-green-t3-c806ef8126fc" target="_blank"></a>Venmo Clone</button> -->
+                    </div>
+                </a>
+                <br>
+
+                <a href="https://github.com/GarrettJohnLaw/Vending-Machine-Software/blob/main/te-nlr-2109-mod1-capstone-green-t9-e10dd813c8e5/vending-machine-cli/java/README.md" target="_blank">
+                    <h3>Vending Machine Software</h3>
+                </a>
+
+                <a href="https://github.com/GarrettJohnLaw/Vending-Machine-Software/blob/main/te-nlr-2109-mod1-capstone-green-t9-e10dd813c8e5/vending-machine-cli/java/README.md" target="_blank">
+                    <div id="vendingMachine" class="imgText">
+                        <p>
+                            The Vending Machine is a fully functional software that manages deposits, user selection, inventory, making change, and logging sales reports for the administrator.
+                        </p>
+                        <!-- <button type="button" onclick=" window.open('https://github.com/GarrettJohnLaw/Vending-Machine-Software/blob/main/te-nlr-2109-mod1-capstone-green-t9-e10dd813c8e5/vending-machine-cli/java/README.md','_blank')" id="contact-button"><a href="https://garrettjohnlaw.com/my-blog" target="_blank"></a>Vending Machine</button><br><br> -->
+                    </div>
+                </a>
+
+            </div>
+
+
+
+
+
+            <!-- <div id="experience-grid">
+                <div id="experience-code">
+                    <h3><i class="fas fa-code"></i> code</h3>
+                    <p>
+                        Object Oriented Programming: Java
+                        <br>Web Application Development: Spring Boot, JSON, HTML, CSS, Responsive Design JavaScript, Vue.js
+                    </p>
                 </div>
+                <div id="experience-database">
+                    <h3><i class="fas fa-database"></i> database</h3>
+                    <p>
+                        JDBC, Table Design, SQL, PostgreSQL, and E/R diagrams.
+                    </p>
+                </div>
+                <div id="experience-web">
+                    <h3><i class="fas fa-info"></i> web</h3>
+                    <p>
+                        Agile, Unit Testing (JUnit), Integration Testing, Unix Command Line navigation, Git, and IntelliJ.
+                    </p>
+                </div>
+                <div id="experience-design">
+                    <h3><i class="fas fa-palette"></i> design</h3>
+                    <p>
+                        HTML, CSS, Grid, Flexbox, and Bootstrap
+                    </p>
+                </div>
+            </div> -->
 
-            </div>
 
         </div>
-
-        <div id="experience-grid">
-            <div id="experience-code">
-                <h3><i class="fas fa-code"></i> code</h3>
-                <p>
-                    Object Oriented Programming: Java
-                    <br>Web Application Development: Spring Boot, JSON, HTML, CSS, Responsive Design JavaScript, Vue.js
-                </p>
-            </div>
-            <div id="experience-database">
-                <h3><i class="fas fa-database"></i> database</h3>
-                <p>
-                    JDBC, Table Design, SQL, PostgreSQL, and E/R diagrams.
-                </p>
-            </div>
-            <div id="experience-web">
-                <h3><i class="fas fa-info"></i> web</h3>
-                <p>
-                    Agile, Unit Testing (JUnit), Integration Testing, Unix Command Line navigation, Git, and IntelliJ.
-                </p>
-            </div>
-            <div id="experience-design">
-                <h3><i class="fas fa-palette"></i> design</h3>
-                <p>
-                    HTML, CSS, Grid, Flexbox, and Bootstrap
-                </p>
-            </div>
-        </div>
+        <footer>
+            <p>&copy; All Rights Reserved, Garrett John Law, 2021</p>
+            <img src="assets/Garrett at Sandstone Peak.jpg" alt="Garrett watching the sunrise over a mountain range in Los Angeles">
+        </footer>
     </main>
-    <footer>
-        <p>&copy; All Rights Reserved, Garrett John Law, 2021</p>
-        <img src="assets/Garrett at Sandstone Peak.jpg" alt="Garrett watching the sunrise over a mountain range in Los Angeles">
-    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </body>
 
 </html>
