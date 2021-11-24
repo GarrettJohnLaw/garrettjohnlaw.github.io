@@ -1,19 +1,12 @@
-Welcome to my portfolio website. 
+Portfolio Site
+Duration: 10 hours
 
-Live at:
-https://garrettjohnlaw.github.io
+To view this application live, please visit: https://garrettjohnlaw.github.io
 
-Please pardon the dust!
+Description
+This page was made with pure HTML and CSS. It is a work in progress and I look forward to refining and building more features.
 
-Next steps:
-- improve grid layout for mobile/tablet/desktop
-- add javascript light/dark mode toggle
-- refactor css
-- add page
-- improve accessibility
+Acknowledgements
+Thank you to Mary Mosman, my instructor at Tech Elevator, who has inspired me to keep learning and creating.
 
-Thanks for stopping by.
-Kindly,
-Garrett
 
-README last updated on 11/19/21
