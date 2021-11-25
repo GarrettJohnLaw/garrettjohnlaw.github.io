@@ -24,7 +24,14 @@
         max-width: 600px;
     }
     
-    #venmoClone img,
+    #calculator {
+        background-image: url("../assets/istockphoto-1155347271-612x612.jpg");  
+        background-repeat: no-repeat;
+        height: 350px;
+        max-width: 600px;
+}
+
+    #venmoClone img, #calculator img,
     #vendingMachine img {
         width: 800px;
     }
