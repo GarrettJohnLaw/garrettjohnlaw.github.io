@@ -13,22 +13,30 @@
     #vendingMachine {
         background-image: url("../assets/vending machine.jpeg");
         background-repeat: no-repeat;
-        height: 350px;
+        height: 340px;
         max-width: 600px;
+        border-radius: 5px;
     }
     
     #venmoClone {
         background-image: url("../assets/venmo.jpg");
         background-repeat: no-repeat;
-        height: 350px;
+        height: 340px;
         max-width: 600px;
+        border-radius: 5px;
     }
     
     #calculator {
         background-image: url("../assets/istockphoto-1155347271-612x612.jpg");
         background-repeat: no-repeat;
-        height: 350px;
+        height: 340px;
         max-width: 600px;
+        border-radius: 5px;
+    }
+    
+    .portfolio {
+        padding: 25px;
+        /* border: 5px solid rgba(19, 99, 190, 0.1); */
     }
     
     #venmoClone img,
@@ -39,11 +47,13 @@
     
     #student-profile a h3 {
         text-decoration: underline;
+        margin: 5px 0 5px;
     }
     
-    .imgText>p {
-        background-color: rgba(255, 255, 255, 0.7);
-        padding: 10px 10px 10px 10px;
+    .imgText {
+        background-color: rgba(255, 253, 253, 0.99);
+        padding: 10px 10px 3px 10px;
+        border-radius: 5px;
     }
     
     a {
