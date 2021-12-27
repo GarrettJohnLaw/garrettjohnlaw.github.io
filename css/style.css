@@ -289,6 +289,10 @@
         width: 100%;
     }
     
+    #student-profile p {
+        max-width: 550px;
+    }
+    
     @media screen and (max-width: 1024px) {
         #student-quote>h2 {
             font-size: 1.5em;
@@ -357,10 +361,6 @@
         }
         img {
             max-width: 100%;
-        }
-        #experience-grid {
-            grid-template-columns: 1fr;
-            grid-template-areas: "experience-code" "experience-database" "experience-web" "experience-design";
         }
         #student-picture img {
             max-width: 75%;
