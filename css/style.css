@@ -43,7 +43,7 @@
     }
     
     .portfolio {
-        padding: 25px;
+        padding: 25px 25px;
     }
     
     #venmoClone img,
@@ -91,7 +91,7 @@
         text-align: center;
         text-decoration: none;
         display: inline-block;
-        font-size: 0.8em;
+        font-size: 0.9em;
         border-radius: 8px;
         width: 34%;
         margin: 10px;
@@ -241,6 +241,7 @@
     
     .contact-button:hover {
         background-color: rgb(19, 99, 190);
+        color: white;
     }
     
     h1 {
@@ -265,8 +266,10 @@
     }
     
     h3 {
-        font-size: 1em;
+        font-size: 1.4em;
         color: #00ADEE;
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
     
     header img {
@@ -392,5 +395,14 @@
             padding-bottom: 0px;
             margin-bottom: 0px;
             height: 75px
+        }
+        h3 {
+            font-size: 1.2em;
+            color: #00ADEE;
+            margin-top: 0px;
+            margin-bottom: 2px;
+        }
+        .imgText p {
+            font-size: 0.95em;
         }
     }
